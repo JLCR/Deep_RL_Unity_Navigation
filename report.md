@@ -67,7 +67,7 @@ How many steps should pass before an update of the current network takes place. 
 
 ## Results
 
-![results](media/rewards.png)
+![results](Media/rewards.png)
 
 ```
 Episode 100	Average Score: 0.19
@@ -86,11 +86,11 @@ Episode 1000	Average Score: 16.41
 
 ### Untrained agent
 
-![untrained](media/untrained.gif)
+![untrained](Media/untrained.gif)
 
 ### Trained agent
 
-![trained](media/trained.gif)
+![trained](Media/trained.gif)
 
 ## Ideas for future work
 
