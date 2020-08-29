@@ -14,23 +14,23 @@ The deep neural network has following layers:
 ### Parameters used in the algorithm:
    
 Maximum number of training episodes:    
-**n_episodes (int)= 1000**    
-maximum number of timesteps per episode:    
-**max_t (int)= 500**    
-starting value of epsilon, for epsilon-greedy action selection:    
-**eps_start (float)= 1.0**    
-minimum value of epsilon:    
-**eps_end (float)= 0.01**    
-multiplicative factor (per episode) for decreasing epsilon:    
-**eps_decay (float)= 0.995**    
-whether to implement Double_DQN modification:    
-**Double_DQN (bool)= True**    
-whether to implement Priority_Replay modification:    
-**Priority_Replay (bool)= True**    
-whether to implement Duel_DQN modification:    
-**Duel_DQN (bool)= True**    
-e adds to all priorities, which are raised to power of a, while b is used to de-bias the q-updates:    
-**Priority_Replay_Paras (list of e,a,b floats)= [0.5, 0.5, 0.5]**    
+- **n_episodes (int)= 1000**    
+Maximum number of timesteps per episode:    
+- **max_t (int)= 500**    
+Starting value of epsilon, for epsilon-greedy action selection:    
+- **eps_start (float)= 1.0**    
+Minimum value of epsilon:    
+- **eps_end (float)= 0.01**    
+Multiplicative factor (per episode) for decreasing epsilon:    
+- **eps_decay (float)= 0.995**    
+Whether to implement Double_DQN modification:    
+- **Double_DQN (bool)= True**    
+Whether to implement Priority_Replay modification:    
+- **Priority_Replay (bool)= True**    
+Whether to implement Duel_DQN modification:    
+- **Duel_DQN (bool)= True**    
+E adds to all priorities, which are raised to power of a, while b is used to de-bias the q-updates:    
+- **Priority_Replay_Paras (list of e,a,b floats)= [0.5, 0.5, 0.5]**     
 
 
 
