@@ -76,7 +76,7 @@ Agent57, the first deep reinforcement learning agent to obtain a score that is a
 Agent57 combines an algorithm for efficient exploration with a meta-controller that adapts the exploration and long vs. short-term behaviour of the agent.
 Agent57 is also a distributed RL agent that decouples the data collection and the learning processes.
 
-![trained](Media/State of the art Agent57.svg)
+![Agent 57](Media/State of the art Agent57.svg)
 
 https://kstatic.googleusercontent.com/files/a49ca0d1257a35500661d1e03a64f09df15e573fbcb1d97c623894554cb613b53a23ca235e640adb3939dee3b2dbd19f318c308b525f10dbe5a4fedef4ddf3f3
 
