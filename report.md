@@ -76,7 +76,7 @@ Agent57, the first deep reinforcement learning agent to obtain a score that is a
 Agent57 combines an algorithm for efficient exploration with a meta-controller that adapts the exploration and long vs. short-term behaviour of the agent.
 Agent57 is also a distributed RL agent that decouples the data collection and the learning processes.
 
-![Agent57](Media/State of the art Agent57.png)
+![Agent57](Media/Agent57.png)
 
 FIGURE 2. AGENTS THAT USE A DISTRIBUTED SETUP ARE BLUE, WHEREAS SINGLE-ACTOR AGENTS ARE TEAL. THE 5TH PERCENTILE ANALYSIS SHOWS THAT STATE OF THE ART ALGORITHMS SUCH AS MUZERO AND R2D2 PERFORM DRAMATICALLY BELOW THE HUMAN BENCHMARK (PURPLE DOTTED LINE), WHEREAS AGENT57 PERFORMS BETTER THAN HUMANS ON THE HARDEST ATARI GAMES.
 
