@@ -12,17 +12,17 @@ The deep neural network has following layers:
 - Layer = input: 32 -> output: 4(action size)
 
 Unfortunately, reinforcement learning is notoriously unstable when neural networks are used to represent the action values. 
-Then, to improve the algorithm some extensions to the Deep Q-Networks (DQN) have been developed.
+Then, to improve the algorithm some extensions to the Deep Q-Networks (DQN) have been developed.    
 Each extension address a different issue with the original DQN algorithm:
-1 Double DQN
-2 Prioritized Experience Replay
-3 Dueling DQN
-4 Multi-step bootstrap targets
-5 Distributional DQN
-6 Noisy DQN
-
-Researchers at Google DeepMind tested the performance of an agent that incorporated all six of these modifications. 
-The corresponding algorithm was termed Rainbow.
+1 Double DQN    
+2 Prioritized Experience Replay    
+3 Dueling DQN    
+4 Multi-step bootstrap targets    
+5 Distributional DQN    
+6 Noisy DQN    
+    
+Researchers at Google DeepMind tested the performance of an agent that incorporated all six of these modifications.     
+The corresponding algorithm was termed Rainbow.    
 
 ### Parameters used in the algorithm:
    
