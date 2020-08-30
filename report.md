@@ -13,7 +13,7 @@ The deep neural network has following layers:
 
 Unfortunately, reinforcement learning is notoriously unstable when neural networks are used to represent the action values. 
 Then, to improve the algorithm some extensions to the Deep Q-Networks (DQN) have been developed.    
-Each extension address a different issue with the original DQN algorithm:
+Each extension address a different issue with the original DQN algorithm:    
 1 Double DQN    
 2 Prioritized Experience Replay    
 3 Dueling DQN    
