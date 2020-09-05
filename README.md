@@ -2,11 +2,14 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
+
 # Project 1: Navigation
 
 ### Introduction
 
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+
+Please take the time now to read the [research paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) that introduces the Deep Q-Learning algorithm.
 
 This environment is provided by Unity Machine Learning Agents (ML-Agents).    
 This is an open-source plugin that enables games and simulations to serve as environments for training intelligent agents.      
@@ -54,3 +57,6 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 
 follow the instructions to learn how to use the Python API to control the agent.
 
+### References
+
++ Sutton, Richard & Barto, Andrew. [Reinforcement Learning: An introduction](https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf).    
