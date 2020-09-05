@@ -11,15 +11,9 @@ For this project, you will train an agent to navigate (and collect bananas!) in 
 
 Please take the time now to read the [research paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) that introduces the Deep Q-Learning algorithm.
 
-
-![Agent-Environment](./Media/Agent-Environment.png "Agent-Environment")
-
-This environment is provided by Unity Machine Learning Agents (ML-Agents).    
-This is an open-source plugin that enables games and simulations to serve as environments for training intelligent agents.      
-In this project, we are using the version v0.4 interface.    
-
-Unity's environments to design, train, and evaluate your own deep reinforcement learning algorithms.    
-
+The environment is provided by Unity Machine Learning Agents (ML-Agents). This is an open-source plugin that enables games and simulations to serve as environments for design, train, and evaluate intelligent agents. In this project, we are using the version v0.4 interface. In the figure is show how the Agent interact with the Environment:
+![Agent-Environment](./Media/Agent-Environment-banana.png "Agent-Environment")
+    
 ![Trained Agent][image1]
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
