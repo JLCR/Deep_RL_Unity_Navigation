@@ -14,7 +14,7 @@ Please take the time now to read the [research paper](https://storage.googleapis
     
 In the figure is show how the Agent interact with the Environment:
 
-<img src="./Media/Agent-Environment-banana.png" alt="Agent-Environment" width="600" style="text-align:center"/>
+<img src="./Media/Agent-Environment-banana.png" alt="Agent-Environment" width="9500" style="text-align:center"/>
 
     
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world:  
