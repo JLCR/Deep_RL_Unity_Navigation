@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
@@ -7,16 +9,16 @@
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
-    
-![Trained Agent][image1]
-    
 **Deep Learning** uses machine learning to make predictions by leveraging vast amounts of training data and a flexible architecture that is able to generalise to previously unseen examples.     
     
 In **Reinforcement learning***, the goal is to have an agent learn how to navigate a new enviroment with the goal of maximising cummulative rewards. One approach to this end is **Q-Learning**, where the agent tries to learn the dynamics of the enviroment indirectly by focusing on estimating the value of each state-action pair in the enviroment. This is acheived over the course of training, using it's experiences to produce and improve these estimates.     
     
 Please take the time now to read the [research paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) that introduces the Deep Q-Learning (DQN) algorithm.
-
+    
+For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+    
+![Trained Agent][image1]
+    
 The environment is provided by Unity Machine Learning Agents (ML-Agents). This is an open-source plugin that enables games and simulations to serve as environments for design, train, and evaluate intelligent agents. In this project, we are using the version v0.4 interface. In the figure is show how the Agent interact with the Environment:
 ![Agent-Environment](./Media/Agent-Environment-banana.png "Agent-Environment")
 
@@ -69,6 +71,8 @@ This is a simple python script that specifies the pytorch model architecture use
 
 ### dqn_agent.py
 This file contains all of the functions required for the agent to store experience, sample and learn from it, and select actions in the enviroment. There is also a lot of extra complexity in this coode due to the prioritised experience replay and double DQN implementations.
+
+
 
 ### checkpoint.pth
 This file contains the trained weights of the most recently trained agent. You can use this file to straight away test an agent without having to train one yourself.
