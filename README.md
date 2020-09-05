@@ -13,7 +13,9 @@ In **Reinforcement learning**, the goal is to have an agent learn how to navigat
 Please take the time now to read the [research paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) that introduces the Deep Q-Learning (DQN) algorithm.
     
 In the figure is show how the Agent interact with the Environment:
-![Agent-Environment](./Media/Agent-Environment-banana.png "Agent-Environment")
+
+<img src="./Media/Agent-Environment-banana.png" alt="Agent-Environment" width="600" style="text-align:center"/>
+
     
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world:  
      
@@ -67,3 +69,4 @@ Follow the instructions in `Navigation.ipynb` to get started with training your 
 
 + Sutton, Richard & Barto, Andrew. [Reinforcement Learning: An introduction](https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf).   
 + Hongzi Mao?, Mohammad Alizadeh?, Ishai Menache†, Srikanth Kandula†. [Resource Management with Deep Reinforcement Learning](http://people.csail.mit.edu/hongzi/content/publications/DeepRM-HotNets16.pdf).
+</div>
