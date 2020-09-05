@@ -14,7 +14,7 @@ Please take the time now to read the [research paper](https://storage.googleapis
     
 For this project, you will train an agent to navigate (and collect bananas!) in a large, square world:  
 
-<img src="https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif" alt="Trained Agent" width="450"/>
+<img src="https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif" alt="Trained Agent" width="450" style="text-align:center"/>
     
 The environment is provided by Unity Machine Learning Agents (ML-Agents). This is an open-source plugin that enables games and simulations to serve as environments for design, train, and evaluate intelligent agents. In this project, we are using the version v0.4 interface.     
 In the figure is show how the Agent interact with the Environment:
