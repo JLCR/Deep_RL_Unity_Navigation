@@ -2,9 +2,6 @@
 
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-
-
 # Project Deep Q-Learning: Navigation
 
 ### Introduction
@@ -15,11 +12,12 @@ In **Reinforcement learning**, the goal is to have an agent learn how to navigat
     
 Please take the time now to read the [research paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) that introduces the Deep Q-Learning (DQN) algorithm.
     
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+For this project, you will train an agent to navigate (and collect bananas!) in a large, square world:  
+
+<img src="https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif" alt="Trained Agent" width="450"/>
     
-![Trained Agent][image1]
-    
-The environment is provided by Unity Machine Learning Agents (ML-Agents). This is an open-source plugin that enables games and simulations to serve as environments for design, train, and evaluate intelligent agents. In this project, we are using the version v0.4 interface. In the figure is show how the Agent interact with the Environment:
+The environment is provided by Unity Machine Learning Agents (ML-Agents). This is an open-source plugin that enables games and simulations to serve as environments for design, train, and evaluate intelligent agents. In this project, we are using the version v0.4 interface.     
+In the figure is show how the Agent interact with the Environment:
 ![Agent-Environment](./Media/Agent-Environment-banana.png "Agent-Environment")
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
@@ -44,13 +42,7 @@ Step 2: Download the environment from one of the links below.  You need only sel
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)    
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)    
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)     
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)    
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.    
-
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.    
-
-Step 3: Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.      
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)       
 
 ### Instructions
 
