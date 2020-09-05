@@ -67,5 +67,5 @@ Follow the instructions in `Navigation.ipynb` to get started with training your 
 
 + Sutton, Richard & Barto, Andrew. [Reinforcement Learning: An introduction](https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf).   
 + Hongzi Mao?, Mohammad Alizadeh?, Ishai Menache†, Srikanth Kandula†. [Resource Management with Deep Reinforcement Learning](http://people.csail.mit.edu/hongzi/content/publications/DeepRM-HotNets16.pdf).    
-+ [Wikipedia] (https://en.wikipedia.org/wiki/Main_Page)    
++ Wikipedia [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)    
 </div>
