@@ -54,17 +54,12 @@ Step 2: Download the environment from one of the links below.  You need only sel
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
 
 ### Files description
-
-**report.md:** This file describes the details of the implementation (model architecture, DQN algorithm, hyperparameters,...) and suggestions for further work.    
-
-**model.py:** This file specifies the pytorch model architecture used.
-
-**dqn_agent.py:** This file contains all of the functions required for the agent to interact with the enviroment.
-
-**checkpoint.pth:** This file contains the trained weights of trained agent. You can use this file to straight away test an agent without having to train one yourself.
-
-**ipynb file:** This file is a Jupyter notebook used to train your agent.
-
+**- report.md:** This file describes the details of the implementation (model architecture, DQN algorithm, hyperparameters,...) and suggestions for further work.    
+**- model.py:** This file specifies the pytorch model architecture used.    
+**- dqn_agent.py:** This file contains all of the functions required for the agent to interact with the enviroment.    
+**- checkpoint.pth:** This file contains the trained weights of trained agent. You can use this file to straight away test an agent without having to train one yourself.    
+**- ipynb file:** This file is a Jupyter notebook used to train your agent.    
+    
 ### References
 
 + Sutton, Richard & Barto, Andrew. [Reinforcement Learning: An introduction](https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf).   
