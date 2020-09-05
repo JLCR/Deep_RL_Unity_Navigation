@@ -11,6 +11,9 @@ For this project, you will train an agent to navigate (and collect bananas!) in 
 
 Please take the time now to read the [research paper](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) that introduces the Deep Q-Learning algorithm.
 
+
+![Agent-Environment](./Media/Agent-Environment.png "Agent-Environment")
+
 This environment is provided by Unity Machine Learning Agents (ML-Agents).    
 This is an open-source plugin that enables games and simulations to serve as environments for training intelligent agents.      
 In this project, we are using the version v0.4 interface.    
@@ -59,4 +62,5 @@ follow the instructions to learn how to use the Python API to control the agent.
 
 ### References
 
-+ Sutton, Richard & Barto, Andrew. [Reinforcement Learning: An introduction](https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf).    
++ Sutton, Richard & Barto, Andrew. [Reinforcement Learning: An introduction](https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf).   
++ Hongzi Mao?, Mohammad Alizadeh?, Ishai Menache†, Srikanth Kandula†. [Resource Management with Deep Reinforcement Learning](http://people.csail.mit.edu/hongzi/content/publications/DeepRM-HotNets16.pdf).
