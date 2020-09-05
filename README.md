@@ -45,15 +45,13 @@ Step 2: Download the environment from one of the links below.  You need only sel
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)     
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)       
 
-Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  
+  Then, place the file in the `p1_navigation/` folder, and unzip the file.  
     
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
 
-## Files description
-
-**ipynb file:** This file is a Jupyter notebook used to train your agent.
+### Files description
 
 **report.md:** This file describes the details of the implementation (model architecture, DQN algorithm, hyperparameters,...) and suggestions for further work.    
 
@@ -62,6 +60,8 @@ Follow the instructions in `Navigation.ipynb` to get started with training your 
 **dqn_agent.py:** This file contains all of the functions required for the agent to interact with the enviroment.
 
 **checkpoint.pth:** This file contains the trained weights of trained agent. You can use this file to straight away test an agent without having to train one yourself.
+
+**ipynb file:** This file is a Jupyter notebook used to train your agent.
 
 ### References
 
