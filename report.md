@@ -2,27 +2,26 @@
 
 ## Learning algorithm
 
-The learning algorithm used is Deep Q-Network (DQN) to solve Unity environment.     
+The learning algorithm used to solve Unity environment (bananas) is **Deep Q-Network (DQN)**.     
      
 As an input the vector of state is used instead of an image so convolutional neural nework is replaced with deep neural network. 
-The deep neural network has following layers:
-
-- Layer = input: 37 (state size) -> output: 64
-- Layer = input: 64 -> output: 32
-- Layer = input: 32 -> output: 4(action size)
-
+The deep neural network has following layers:    
+- Layer = input: 37 (state size) -> output: 64    
+- Layer = input: 64 -> output: 32    
+- Layer = input: 32 -> output: 4(action size)    
+     
 Unfortunately, reinforcement learning is notoriously unstable when neural networks are used to represent the action values. 
-Then, to improve the algorithm some extensions to the Deep Q-Networks (DQN) have been developed.    
+Then, to improve the algorithm some extensions to the Deep Q-Networks (DQN) have been developed.     
 Each extension address a different issue with the original DQN algorithm:    
-1 Double DQN    
-2 Prioritized Experience Replay    
-3 Dueling DQN    
-4 Multi-step bootstrap targets    
-5 Distributional DQN    
-6 Noisy DQN    
+  1 - Double DQN    
+  2 - Prioritized Experience Replay    
+  3 - Dueling DQN    
+  4 - Multi-step bootstrap targets    
+  5 - Distributional DQN    
+  6 - Noisy DQN    
     
 Researchers at Google DeepMind tested the performance of an agent that incorporated all six of these modifications.     
-The corresponding algorithm was termed Rainbow.    
+The corresponding algorithm was termed **Rainbow**.    
 
 ### Parameters used in the algorithm:
    
@@ -45,6 +44,12 @@ The corresponding algorithm was termed Rainbow.
 - E adds to all priorities, which are raised to power of a, while b is used to de-bias the q-updates:    
 **Priority_Replay_Paras (list of e,a,b floats)= [0.5, 0.5, 0.5]**    
 
+BUFFER_SIZE = int(1e5)  # replay buffer size    
+BATCH_SIZE = 64         # minibatch size    
+GAMMA = 0.99            # discount factor    
+TAU = 1e-3              # for soft update of target parameters    
+LR = 5e-4               # learning rate     
+UPDATE_EVERY = 4        # how often to update the network    
 
 
 ## Results
