@@ -49,7 +49,7 @@ The corresponding algorithm was termed Rainbow.
 
 ## Results
 
-![results](Media/rewards.png)
+![results](Media/scores.png)
 
 ```
 Episode 100	Average Score: 0.19
