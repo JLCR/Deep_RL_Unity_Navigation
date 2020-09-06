@@ -49,8 +49,6 @@ The corresponding algorithm was termed Rainbow.
 
 ## Results
 
-![results](Media/scores.png)
-
 ```
 Episode 100	Average Score: 0.19
 Episode 200	Average Score: 1.38
@@ -65,7 +63,8 @@ Episode 800	Average Score: 15.26
 Episode 900	Average Score: 17.20
 Episode 1000	Average Score: 16.41
 ```
-
+![results](Media/scores.png)    
+    
 ### Trained agent
 
 ![trained](Media/Unity-EnvTraining.gif)
@@ -80,8 +79,7 @@ Agent57 is also a distributed RL agent that decouples the data collection and th
 
 FIGURE 2. AGENTS THAT USE A DISTRIBUTED SETUP ARE BLUE, WHEREAS SINGLE-ACTOR AGENTS ARE TEAL. THE 5TH PERCENTILE ANALYSIS SHOWS THAT STATE OF THE ART ALGORITHMS SUCH AS MUZERO AND R2D2 PERFORM DRAMATICALLY BELOW THE HUMAN BENCHMARK (PURPLE DOTTED LINE), WHEREAS AGENT57 PERFORMS BETTER THAN HUMANS ON THE HARDEST ATARI GAMES.
 
-Sources:
-
-https://deepmind.com/blog/article/Agent57-Outperforming-the-human-Atari-benchmark
+## References:
++ "Agente57". (https://deepmind.com/blog/article/Agent57-Outperforming-the-human-Atari-benchmark)
 
 
