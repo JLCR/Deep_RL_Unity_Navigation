@@ -4,7 +4,7 @@
 
 The learning algorithm used to solve Unity environment (bananas) is **Deep Q-Network (DQN)**.     
      
-As an input the vector of state is used instead of an image so convolutional neural nework is replaced with deep neural network. 
+As an input the **vector of state** is used instead of an image so convolutional neural nework is replaced with **deep neural network**. 
 The deep neural network has following layers:    
 - Layer: input= 37 (state size) -> output= 64    
 - Layer: input= 64 -> output= 32    
