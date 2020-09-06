@@ -80,6 +80,6 @@ Agent57 is also a distributed RL agent that decouples the data collection and th
 FIGURE 2. AGENTS THAT USE A DISTRIBUTED SETUP ARE BLUE, WHEREAS SINGLE-ACTOR AGENTS ARE TEAL. THE 5TH PERCENTILE ANALYSIS SHOWS THAT STATE OF THE ART ALGORITHMS SUCH AS MUZERO AND R2D2 PERFORM DRAMATICALLY BELOW THE HUMAN BENCHMARK (PURPLE DOTTED LINE), WHEREAS AGENT57 PERFORMS BETTER THAN HUMANS ON THE HARDEST ATARI GAMES.
 
 ## References:
-+ "Agente57". (https://deepmind.com/blog/article/Agent57-Outperforming-the-human-Atari-benchmark)
++ AGENT57 deep reinforcement learning agent. (https://deepmind.com/blog/article/Agent57-Outperforming-the-human-Atari-benchmark)
 
 
