@@ -76,7 +76,7 @@ Episode 1000	Average Score: 16.36
     
 ### Trained agent
 
-![trained](Media/Unity-EnvTraining.gif)
+![trained](Media/UnityEnvTrained.gif)
 
 ## Ideas for future work
 
