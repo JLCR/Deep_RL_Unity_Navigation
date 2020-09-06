@@ -43,19 +43,19 @@ The corresponding algorithm was termed **Rainbow**.
   **Duel_DQN (bool)= True**    
 - These parameters determinte the priority modification. e adds to all priorities, which are raised to power of a, while b is used to de-bias the q-updates:    
   **Priority_Replay_Paras (list of e,a,b floats)= [0.5, 0.5, 0.5]**    
-- Discount factor: Close to 1 will cause the agent to value all future rewards equally:  
-  **GAMMA (float): 0.99**    
-- Learning rate: Too large and instability is caused, while too small and the model could never converge:
-  **LR (float): 5e-4**
-- Minibatch size: Too low will cause learning instability and poor convergence, too high can cause convergence to local optima:
-  **BATCH_SIZE (int): 64**
-- Replay buffer size: size of the experience buffer. If you experience issues with RAM try lowering it:
-  **BUFFER_SIZE (int): 1e5**  
-- TAU: for soft update of target parameters. How closely the target-network should track the current network:
-  **TAU (float): 1e-3**
-- Timesteps: how often to update the network:
-  **UPDATE_EVERY (int): 4**\  
-
+- Discount factor: Close to 1 will cause the agent to value all future rewards equally:    
+  **GAMMA (float): 0.99**      
+- Learning rate: Too large and instability is caused, while too small and the model could never converge:    
+  **LR (float): 5e-4**    
+- Minibatch size: Too low will cause learning instability and poor convergence, too high can cause convergence to local optima:     
+  **BATCH_SIZE (int): 64**     
+- Replay buffer size: size of the experience buffer. If you experience issues with RAM try lowering it:    
+  **BUFFER_SIZE (int): 1e5**      
+- TAU: for soft update of target parameters. How closely the target-network should track the current network:     
+  **TAU (float): 1e-3**     
+- Timesteps: how often to update the network:     
+  **UPDATE_EVERY (int): 4**\      
+    
 ## Results
 
 ```
