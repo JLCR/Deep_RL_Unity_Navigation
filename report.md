@@ -41,7 +41,7 @@ The corresponding algorithm was termed **Rainbow**.
 - Whether to implement Duel_DQN modification:    
   **Duel_DQN** (bool)= True    
 - These parameters determinte the priority modification. e adds to all priorities, which are raised to power of a, while b is used to de-bias the q-updates:    
-  **Priority_Replay_Paras* (list of e,a,b floats)= [0.5, 0.5, 0.5]    
+  **Priority_Replay_Paras** (list of e,a,b floats)= [0.5, 0.5, 0.5]    
 - Discount factor: Close to 1 will cause the agent to value all future rewards equally:    
   **GAMMA** (float): 0.99      
 - Learning rate: Too large and instability is caused, while too small and the model could never converge:    
