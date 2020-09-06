@@ -51,6 +51,26 @@ TAU = 1e-3              # for soft update of target parameters
 LR = 5e-4               # learning rate     
 UPDATE_EVERY = 4        # how often to update the network    
 
+**GAMMA (float): discount rate**\
+Close to 1 will cause the agent to value all future rewards equally, while close to 0 will cause the agent to prioritise more immediate rewards. Unlike most hyperparameters, this will not only effect convergence but also the optimal policy converged to. For example if an agent must choose between collecting 1 bananna and then waiting 20 timeseteps versus collecting 2 banannas after 20 timesteps, then the optimal policy depends on the reard discount rate. Close to 1 is often best so I chose 0.99.
+
+
+**LR (float): model hyperparameter - learning rate**\
+This determines how large the model weight updates are after each learning step. Too large and instability is caused, while too small and the model may never converge. I chose the small 5e-4, since we can increase epsiodes until we reach convergence. 
+
+**BATCH_SIZE (int): model hyperparameter - number of experiences sampled for a model minibatch**\
+Too low will cause learning instability and poor convergence, too high can cause convergence to local optima. I chose 64 as a default.
+
+
+**BUFFER_SIZE (int): replay buffer size**\
+this is the size of the experience buffer, which when exceeded will drop old experiences. This is mainly limited by your available RAM - if you experience issues with RAM try lowering it
+
+
+**TAU (float): how closely the target-network should track the current network**\
+After every learning step the target-network weights are updated closer to the current network, so that the target-network weights are a moving average over time of the current network past weights. i chose a relatively small value (1e-3) although haven't experimented with tuning it.
+
+**UPDATE_EVERY (int): how often to update the network**\
+How many steps should pass before an update of the current network takes place. I chose every 4 timesteps.
 
 ## Results
 
