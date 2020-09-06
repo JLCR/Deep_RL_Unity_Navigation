@@ -71,7 +71,7 @@ Episode 800	Average Score: 15.83
 Episode 900	Average Score: 15.95
 Episode 1000	Average Score: 16.36
 ```
-![results](Media/scores.png)    
+<img src="./Media/scores.png" alt="scores" width="400" style="text-align:center"/>
     
 ### Trained agent
 
