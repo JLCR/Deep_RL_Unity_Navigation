@@ -4,7 +4,7 @@
 
 The learning algorithm used to solve Unity environment (bananas) is **Deep Q-Network (DQN)**.     
      
-As an input the **vector of state** is used instead of an image so convolutional neural nework is replaced with **deep neural network**. 
+As an input the **vector of state** is used instead of an image so convolutional neural network is replaced with **deep neural network**. 
 The deep neural network has the following layers indicated in **model.py** file:    
 - Layer: input= 37 (state size) -> output= 64    
 - Layer: input= 64 -> output= 32    
@@ -81,9 +81,9 @@ Episode 1000	Average Score: 16.98
 ![trained](Media/UnityEnvTrained.gif)
 
 ## Ideas for future work
-**Rainbow*,  
+**Rainbow**, investigate the three extensions not implemented in this project: Multi-step bootstrap targets, Distributional DQN and Noisy DQN Additions that might improve the algorithm.  
 
-**Agent57**, the first deep reinforcement learning agent to obtain a score that is above the  human baseline on all 57 Atari 2600 games.
+**Agent57**, the first deep reinforcement learning agent to obtain a score that is above the human baseline on all 57 Atari 2600 games.
 Agent57 combines an algorithm for efficient exploration with a meta-controller that adapts the exploration and long vs. short-term behaviour of the agent.
 Agent57 is also a distributed RL agent that decouples the data collection and the learning processes.
 
