@@ -61,18 +61,18 @@ The corresponding algorithm was termed **Rainbow**.
 ## Results
 
 ```
-Episode 100	Average Score: 0.42
-Episode 200	Average Score: 3.42
-Episode 300	Average Score: 7.58
-Episode 400	Average Score: 10.76
-Episode 500	Average Score: 12.18
-Episode 540	Average Score: 13.00
-Environment solved in 440 episodes!	Average Score: 13.00
-Episode 600	Average Score: 13.91
-Episode 700	Average Score: 15.71
-Episode 800	Average Score: 16.39
-Episode 900	Average Score: 16.42
-Episode 1000	Average Score: 16.98
+Episode 100	Average Score: 0.57
+Episode 200	Average Score: 3.67
+Episode 300	Average Score: 7.74
+Episode 400	Average Score: 9.55
+Episode 500	Average Score: 12.02
+Episode 565	Average Score: 13.00
+Environment solved in 465 episodes!	Average Score: 13.00
+Episode 600	Average Score: 13.75
+Episode 700	Average Score: 15.49
+Episode 800	Average Score: 16.74
+Episode 900	Average Score: 16.27
+Episode 1000	Average Score: 17.39
 ```
 <img src="./Media/scores.png" alt="scores" width="400" style="text-align:center"/>
     
